@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bisikennadi.First.HomeActivity$PlaceholderFragment" >
+
+	<Button
+	    android:id="@+id/StormTracker_btn"
+	    style="?android:attr/borderlessButtonStyle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/Homeowner_btn"
+	    android:layout_alignBottom="@+id/Homeowner_btn"
+	    android:layout_alignLeft="@+id/MainSocial_btn"
+	    android:text="@string/button_storm" />
+
+	<Button
+	    android:id="@+id/AtlasStore_btn"
+	    style="?android:attr/borderlessButtonStyle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/Warranty_btn"
+	    android:layout_alignRight="@+id/Warranty_btn"
+	    android:layout_marginBottom="40dp"
+	    android:text="@string/button_store" />
+
+	<Button
+	    android:id="@+id/MainSocial_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginBottom="66dp"
+	    android:layout_marginRight="100dp"
+	    android:text="@string/button_social" />
+
+	<Button
+	    android:id="@+id/AtlasRebates_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/StormTracker_btn"
+	    android:layout_alignRight="@+id/StormTracker_btn"
+	    android:layout_marginBottom="35dp"
+	    android:text="@string/button_rebates" />
+
+	<Button
+	    android:id="@+id/Shingle_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/AtlasStore_btn"
+	    android:layout_alignRight="@+id/AtlasStore_btn"
+	    android:layout_marginBottom="32dp"
+	    android:text="@string/button_shingle" />
+
+	<Button
+	    android:id="@+id/Distributor_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/AtlasStore_btn"
+	    android:layout_alignBottom="@+id/AtlasStore_btn"
+	    android:layout_alignRight="@+id/AtlasRebates_btn"
+	    android:text="@string/button_distributor" />
+
+	<Button
+	    android:id="@+id/PruductLit_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/EagleView_btn"
+	    android:layout_alignRight="@+id/Distributor_btn"
+	    android:layout_marginBottom="51dp"
+	    android:text="@string/button_literature" />
+
+	<Button
+	    android:id="@+id/EagleView_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/Shingle_btn"
+	    android:layout_alignBottom="@+id/Shingle_btn"
+	    android:layout_alignRight="@+id/Distributor_btn"
+	    android:text="@string/button_eagleview" />
+
+	<Button
+	    android:id="@+id/Estimates_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignRight="@+id/PruductLit_btn"
+	    android:layout_marginTop="53dp"
+	    android:text="@string/button_estimates" />
+
+	<Button
+	    android:id="@+id/Warranty_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/AtlasRebates_btn"
+	    android:layout_alignBottom="@+id/AtlasRebates_btn"
+	    android:layout_marginLeft="43dp"
+	    android:text="@string/button_warranty" />
+
+	<Button
+	    android:id="@+id/Homeowner_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/Testimonials_btn"
+	    android:layout_alignRight="@+id/Warranty_btn"
+	    android:layout_marginBottom="32dp"
+	    android:text="@string/button_leads" />
+
+	<Button
+	    android:id="@+id/Testimonials_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/MainSocial_btn"
+	    android:layout_alignBottom="@+id/MainSocial_btn"
+	    android:layout_alignRight="@+id/Homeowner_btn"
+	    android:text="@string/button_testimonials" />
+
+	<Button
+	    android:id="@+id/Presentation_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/PruductLit_btn"
+	    android:layout_alignBottom="@+id/PruductLit_btn"
+	    android:layout_alignRight="@+id/Shingle_btn"
+	    android:text="@string/button_presentation" />
+
+	<Button
+	    android:id="@+id/MyProjects_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/Estimates_btn"
+	    android:layout_alignBottom="@+id/Estimates_btn"
+	    android:layout_alignRight="@+id/Presentation_btn"
+	    android:layout_marginRight="22dp"
+	    android:text="@string/button_projects" />
+
+</RelativeLayout>

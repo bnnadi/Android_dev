@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bisikennadi.First.HomeActivity$PlaceholderFragment" >
+
+	<Button
+	    android:id="@+id/Warranty_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/AtlasRebates_btn"
+	    android:layout_alignBottom="@+id/AtlasRebates_btn"
+	    android:layout_marginLeft="43dp"
+	    android:text="@string/button_warranty"
+	    android:textAppearance="?android:attr/textAppearanceLarge" 
+	    android:onClick="nextPage" />
+
+	<Button
+	    android:id="@+id/Testimonials_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/MainSocial_btn"
+	    android:layout_alignBottom="@+id/MainSocial_btn"
+	    android:layout_alignRight="@+id/Homeowner_btn"
+	    android:text="@string/button_testimonials"
+	    android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+	<Button
+	    android:id="@+id/Presentation_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/PruductLit_btn"
+	    android:layout_alignBottom="@+id/PruductLit_btn"
+	    android:layout_alignRight="@+id/Shingle_btn"
+	    android:text="@string/button_presentation"
+	    android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+	<Button
+	    android:id="@+id/AtlasStore_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/Shingle_btn"
+	    android:layout_toLeftOf="@+id/MainSocial_btn"
+	    android:text="@string/button_store"
+	    android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+	<Button
+	    android:id="@+id/Estimates_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/PruductLit_btn"
+	    android:layout_alignRight="@+id/PruductLit_btn"
+	    android:layout_marginBottom="34dp"
+	    android:text="@string/button_estimates"
+	    android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+	<Button
+	    android:id="@+id/MyProjects_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/Estimates_btn"
+	    android:layout_alignBottom="@+id/Estimates_btn"
+	    android:layout_toLeftOf="@+id/MainSocial_btn"
+	    android:text="@string/button_projects"
+	    android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+	<Button
+	    android:id="@+id/EagleView_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/Shingle_btn"
+	    android:layout_alignBottom="@+id/Shingle_btn"
+	    android:layout_alignRight="@+id/Distributor_btn"
+	    android:text="@string/button_eagleview"
+	    android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+	<Button
+	    android:id="@+id/PruductLit_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/EagleView_btn"
+	    android:layout_alignRight="@+id/EagleView_btn"
+	    android:layout_marginBottom="27dp"
+	    android:text="@string/button_literature"
+	    android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+	<Button
+	    android:id="@+id/MainSocial_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="217dp"
+	    android:layout_marginLeft="84dp"
+	    android:layout_toRightOf="@+id/Homeowner_btn"
+	    android:text="@string/button_social"
+	    android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+	<Button
+	    android:id="@+id/StormTracker_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/MainSocial_btn"
+	    android:layout_alignRight="@+id/MainSocial_btn"
+	    android:layout_marginBottom="13dp"
+	    android:text="@string/button_storm"
+	    android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+	<Button
+	    android:id="@+id/AtlasRebates_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/Homeowner_btn"
+	    android:layout_alignRight="@+id/StormTracker_btn"
+	    android:text="@string/button_rebates"
+	    android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+	<Button
+	    android:id="@+id/Distributor_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/AtlasRebates_btn"
+	    android:layout_alignRight="@+id/AtlasRebates_btn"
+	    android:layout_marginBottom="15dp"
+	    android:text="@string/button_distributor"
+	    android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+	<Button
+	    android:id="@+id/Shingle_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/Distributor_btn"
+	    android:layout_alignRight="@+id/AtlasStore_btn"
+	    android:layout_marginBottom="21dp"
+	    android:text="@string/button_shingle"
+	    android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+	<Button
+	    android:id="@+id/Homeowner_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/StormTracker_btn"
+	    android:layout_alignBottom="@+id/StormTracker_btn"
+	    android:layout_alignRight="@+id/Warranty_btn"
+	    android:text="@string/button_leads"
+	    android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+
+
+</RelativeLayout>

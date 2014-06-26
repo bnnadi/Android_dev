@@ -8,6 +8,10 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -29,6 +33,13 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.bisikennadi.First.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.bisikennadi.First.ListActivity"
+            android:label="@string/title_activity_list" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bisikennadi.First.HomeActivity" />
         </activity>
     </application>
 
