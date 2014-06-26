@@ -23,9 +23,4 @@
     <string name="button_storm">Storm Tracking</string>
     <string name="button_testimonials">Testimonials</string>
     <string name="button_social">Social Sharing</string>
-    <string name="title_project_list">Projects</string>
-    <string name="title_project_detail">Project Detail</string>
-    <string name="title_activity_list">ListActivity</string>
-    <string name="hello_world">Hello world!</string>
-
 </resources>

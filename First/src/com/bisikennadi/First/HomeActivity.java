@@ -94,61 +94,61 @@ public class HomeActivity extends Activity {
 	public void nextPage(View view){
 		switch (view.getId()) {
 			case R.id.MyProjects_btn:
-				Intent projIntent = new Intent(this, ListActivity.class);
+				Intent projIntent = new Intent(this, MainListActivity.class);
 				String page = "My Projects";
 				projIntent.putExtra(EXTRA_MESSAGE, page);
 			    startActivity(projIntent);
 			    break;
 			case R.id.Estimates_btn:
-				Intent estIntent = new Intent(this, ListActivity.class);		
+				Intent estIntent = new Intent(this, MainListActivity.class);		
 			    startActivity(estIntent);
 			    break;
 			case R.id.Presentation_btn:
-				Intent presIntent = new Intent(this, ListActivity.class);		
+				Intent presIntent = new Intent(this, MainListActivity.class);		
 			    startActivity(presIntent);
 			    break;
 			case R.id.ProductLit_btn:
-				Intent prodIntent = new Intent(this, ListActivity.class);		
+				Intent prodIntent = new Intent(this, MainListActivity.class);		
 			    startActivity(prodIntent);
 			    break;
 			case R.id.Shingle_btn:
-				Intent shinIntent = new Intent(this, ListActivity.class);		
+				Intent shinIntent = new Intent(this, MainListActivity.class);		
 			    startActivity(shinIntent);
 			    break;
 			case R.id.EagleView_btn:
-				Intent eagleIntent = new Intent(this, ListActivity.class);		
+				Intent eagleIntent = new Intent(this, MainListActivity.class);		
 			    startActivity(eagleIntent);
 			    break;
 			case R.id.AtlasStore_btn:
-				Intent storeIntent = new Intent(this, ListActivity.class);		
+				Intent storeIntent = new Intent(this, MainListActivity.class);		
 			    startActivity(storeIntent);
 			    break;
 			case R.id.Distributor_btn:
-				Intent distIntent = new Intent(this, ListActivity.class);		
+				Intent distIntent = new Intent(this, MainListActivity.class);		
 			    startActivity(distIntent);
 			    break;
 			case R.id.Warranty_btn:
-				Intent warrIntent = new Intent(this, ListActivity.class);		
+				Intent warrIntent = new Intent(this, MainListActivity.class);		
 			    startActivity(warrIntent);
 			    break;
 			case R.id.AtlasRebates_btn:
-				Intent rebateIntent = new Intent(this, ListActivity.class);		
+				Intent rebateIntent = new Intent(this, MainListActivity.class);		
 			    startActivity(rebateIntent);
 			    break;
 			case R.id.Homeowner_btn:
-				Intent homeIntent = new Intent(this, ListActivity.class);		
+				Intent homeIntent = new Intent(this, MainListActivity.class);		
 			    startActivity(homeIntent);
 			    break;
 			case R.id.StormTracker_btn:
-				Intent stormIntent = new Intent(this, ListActivity.class);		
+				Intent stormIntent = new Intent(this, MainListActivity.class);		
 			    startActivity(stormIntent);
 			    break;
 			case R.id.Testimonials_btn:
-				Intent testIntent = new Intent(this, ListActivity.class);		
+				Intent testIntent = new Intent(this, MainListActivity.class);		
 			    startActivity(testIntent);
 			    break;
 			case R.id.MainSocial_btn:
-				Intent socialIntent = new Intent(this, ListActivity.class);		
+				Intent socialIntent = new Intent(this, MainListActivity.class);		
 			    startActivity(socialIntent);
 			    break;
 

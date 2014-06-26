@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Priméro</string>
+    <string name="username">Username</string>
+    <string name="password">Contrasena</string>
+    <string name="action_settings">Configuracîon</string>
+    <string name="action_search">Busqueda</string>
+    <string name="button_send">Enviar</string>
+    <string name="title_activity_main">Inicio de sesion</string>
+    <string name="title_activity_home">Pagña de inicio</string>
+
+</resources>

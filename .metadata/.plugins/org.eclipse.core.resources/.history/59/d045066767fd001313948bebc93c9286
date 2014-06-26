@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Priméro</string>
+    <string name="username">Username</string>
+    <string name="password">Contrasena</string>
+    <string name="action_settings">Configuracîon</string>
+    <string name="action_search">Busqueda</string>
+    <string name="button_send">Enviar</string>
+    <string name="title_activity_main">Inicio de sesion</string>
+    <string name="title_activity_home">Pagña de inicio</string>
+    <string name="button_projects">My Projects</string>
+    <string name="button_estimates">Estimates</string>
+    <string name="button_presentation">Presentation Builder</string>
+    <string name="button_literature">Product Literature</string>
+    <string name="button_shingle">Shingle Visualization</string>
+    <string name="button_eagleview">EagleView Reports</string>
+    <string name="button_store">Atlas Store</string>
+    <string name="button_distributor">Locate A Distributor</string>
+    <string name="button_warranty">Warranty Submission</string>
+    <string name="button_rebates">Atlas Rebates</string>
+    <string name="button_leads">Homeowner Leads</string>
+    <string name="button_storm">Storm Tracking</string>
+    <string name="button_testimonials">Testimonials</string>
+    <string name="button_social">Social Sharing</string>
+    <string name="title_project_list">Projects</string>
+    <string name="title_project_detail">Project Detail</string>
+    <string name="title_activity_list">ListActivity</string>
+</resources>

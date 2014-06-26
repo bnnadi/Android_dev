@@ -9,5 +9,18 @@
     <string name="button_send">Envoyer</string>
     <string name="title_activity_main">Login</string>
     <string name="title_activity_home">Accueil</string>
-
+    <string name="button_projects">My Projects</string>
+    <string name="button_estimates">Estimates</string>
+    <string name="button_presentation">Presentation Builder</string>
+    <string name="button_literature">Product Literature</string>
+    <string name="button_shingle">Shingle Visualization</string>
+    <string name="button_eagleview">EagleView Reports</string>
+    <string name="button_store">Atlas Store</string>
+    <string name="button_distributor">Locate A Distributor</string>
+    <string name="button_warranty">Warranty Submission</string>
+    <string name="button_rebates">Atlas Rebates</string>
+    <string name="button_leads">Homeowner Leads</string>
+    <string name="button_storm">Storm Tracking</string>
+    <string name="button_testimonials">Testimonials</string>
+    <string name="button_social">Social Sharing</string>
 </resources>

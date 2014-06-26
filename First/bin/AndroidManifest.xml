@@ -35,11 +35,8 @@
                 android:value="com.bisikennadi.First.MainActivity" />
         </activity>
         <activity
-            android:name="com.bisikennadi.First.ListActivity"
-            android:label="@string/title_activity_list" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.bisikennadi.First.HomeActivity" />
+            android:name="com.bisikennadi.First.MainListActivity"
+            android:label="@string/title_activity_main_list" >
         </activity>
     </application>
 

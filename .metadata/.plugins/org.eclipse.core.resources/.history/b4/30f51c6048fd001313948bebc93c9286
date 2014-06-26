@@ -1,0 +1,30 @@
+package com.bisikennadi.First;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class ListActivity extends ListActivity {
+
+	@Override
+	protected void onCreate(Bundle icicle) {
+		
+		Intent intent = getIntent();
+		String page = intent.getStringExtra(HomeActivity.EXTRA_MESSAGE);
+		
+		 // Create the text view
+	    TextView textView = new TextView(this);
+	    textView.setTextSize(40);
+	    textView.setText(page);
+
+	    // Set the text view as the activity layout
+	    setContentView(textView);
+	    
+	    getListInfo();
+	}
+
+	private void getListInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+}
