@@ -1,4 +1,3 @@
-<<<<<<< Original
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bisikennadi.alpha" >
@@ -33,27 +32,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.bisikennadi.alpha.LoginActivity" />
         </activity>
-        <activity
-            android:name=".TempList"
-            android:label="@string/title_activity_temp_list"
-            android:parentActivityName=".Home" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.bisikennadi.alpha.Home" />
-        </activity>
     </application>
 
 </manifest>
 
-=======
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
-
-    <application>
-        <activity android:name="com.bisikennadi.alpha.TempList"
-            android:label="@string/title_activity_temp_list"
-            >
-        </activity>
-    </application>
-
-</manifest>
->>>>>>> Added
