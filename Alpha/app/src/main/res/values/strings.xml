@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alpha</string>
+    <string name="hello_world">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="home_sales_rep_label">My Atlas Sales Rep:</string>
+    <string name="phone_label">Email:</string>
+    <string name="email_label">Phone:</string>
+    <string name="my_projects">My Projects</string>
+    <string name="estimates">Estimates</string>
+    <string name="presentation">Presentation Builder</string>
+    <string name="prodLit">Product Literature</string>
+    <string name="shingle">Shingle Visualization</string>
+    <string name="eagleView">EagleView&reg; Reports</string>
+    <string name="atlasStore">Atlas Store</string>
+    <string name="locateDist">Locate a Distributor</string>
+    <string name="warrantySub">Warranty Submission</string>
+    <string name="atlasRebate">Atlas Rebates</string>
+    <string name="homeowner">Homeowner Leads</string>
+    <string name="stormTracker">Storm Tracker</string>
+    <string name="testimonial">Testimonials</string>
+    <string name="social_share">Social Sharing</string>
+
+</resources>
