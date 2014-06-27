@@ -18,7 +18,7 @@
     <string name="presentation">Presentation Builder</string>
     <string name="prodLit">Product Literature</string>
     <string name="shingle">Shingle Visualization</string>
-    <string name="eagleView">EagleView&#174; Reports</string>
+    <string name="eagleView">EagleView® Reports</string>
     <string name="atlasStore">Atlas Store</string>
     <string name="locateDist">Locate a Distributor</string>
     <string name="warrantySub">Warranty Submission</string>
@@ -27,5 +27,7 @@
     <string name="stormTracker">Storm Tracker</string>
     <string name="testimonial">Testimonials</string>
     <string name="social_share">Social Sharing</string>
+    <string name="title_activity_temp_web">TempWeb</string>
+    <string name="title_activity_temp_list">TempList</string>
 
 </resources>

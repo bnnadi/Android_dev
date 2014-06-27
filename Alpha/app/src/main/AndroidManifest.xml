@@ -32,7 +32,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.bisikennadi.alpha.LoginActivity" />
         </activity>
+        <activity
+            android:name=".TempWeb"
+            android:label="@string/title_activity_temp_web"
+            android:parentActivityName=".Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bisikennadi.alpha.Home" />
+        </activity>
+        <activity
+            android:name=".TempList"
+            android:label="@string/title_activity_temp_list"
+            android:parentActivityName=".Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bisikennadi.alpha.Home" />
+        </activity>
     </application>
 
 </manifest>
-
