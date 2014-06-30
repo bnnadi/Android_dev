@@ -1,0 +1,228 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.bisikennadi.alpha.Home">
+
+    <TextView
+        android:id="@+id/home_sales_rep_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_sales_rep_label"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/home_phone_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_label"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignTop="@+id/home_email_label"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/home_email_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_label"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginRight="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/estimates_btn"
+        android:layout_alignEnd="@+id/estimates_btn" />
+
+
+    <Button
+        android:id="@+id/myProjects_btn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/my_projects"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="nextPage"/>
+
+    <Button
+        android:id="@+id/estimates_btn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_alignTop="@+id/myProjects_btn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:text="@string/estimates"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="nextPage" />
+
+    <Button
+        android:id="@+id/productLit_btn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_below="@+id/estimates_btn"
+        android:layout_alignLeft="@+id/estimates_btn"
+        android:layout_alignStart="@+id/estimates_btn"
+        android:layout_marginTop="10dp"
+        android:text="@string/prodLit"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="nextPage" />
+
+    <Button
+        android:id="@+id/eagleView_btn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_below="@+id/productLit_btn"
+        android:layout_alignLeft="@+id/productLit_btn"
+        android:layout_alignStart="@+id/productLit_btn"
+        android:layout_marginTop="10dp"
+        android:text="@string/eagleView"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="nextPage" />
+
+    <Button
+        android:id="@+id/locateDist_btn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_below="@+id/eagleView_btn"
+        android:layout_alignLeft="@+id/eagleView_btn"
+        android:layout_alignStart="@+id/eagleView_btn"
+        android:layout_marginTop="10dp"
+        android:text="@string/locateDist"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="nextPage" />
+
+    <Button
+        android:id="@+id/atlas_rebates_btn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_below="@+id/locateDist_btn"
+        android:layout_alignLeft="@+id/locateDist_btn"
+        android:layout_alignStart="@+id/locateDist_btn"
+        android:layout_marginTop="10dp"
+        android:text="@string/atlasRebate"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="nextPage" />
+
+    <Button
+        android:id="@+id/storm_track_btn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_below="@+id/atlas_rebates_btn"
+        android:layout_alignLeft="@+id/atlas_rebates_btn"
+        android:layout_alignStart="@+id/atlas_rebates_btn"
+        android:layout_marginTop="10dp"
+        android:text="@string/stormTracker"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="nextPage" />
+
+    <Button
+        android:id="@+id/social_share_btn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_below="@+id/storm_track_btn"
+        android:layout_alignLeft="@+id/storm_track_btn"
+        android:layout_alignStart="@+id/storm_track_btn"
+        android:layout_marginTop="10dp"
+        android:text="@string/social_share"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="nextPage" />
+
+    <Button
+        android:id="@+id/presentation_btn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_below="@+id/myProjects_btn"
+        android:layout_alignLeft="@+id/myProjects_btn"
+        android:layout_alignStart="@+id/myProjects_btn"
+        android:layout_marginTop="10dp"
+        android:text="@string/presentation"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="nextPage" />
+
+    <Button
+        android:id="@+id/shingle_btn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_below="@+id/presentation_btn"
+        android:layout_alignLeft="@+id/presentation_btn"
+        android:layout_alignStart="@+id/presentation_btn"
+        android:layout_marginTop="10dp"
+        android:text="@string/shingle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/atlas_store_btn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_below="@+id/shingle_btn"
+        android:layout_alignLeft="@+id/shingle_btn"
+        android:layout_alignStart="@+id/shingle_btn"
+        android:layout_marginTop="10dp"
+        android:text="@string/atlasStore"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="nextPage" />
+
+    <Button
+        android:id="@+id/warranty_btn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_below="@+id/atlas_store_btn"
+        android:layout_alignLeft="@+id/atlas_store_btn"
+        android:layout_alignStart="@+id/atlas_store_btn"
+        android:layout_marginTop="10dp"
+        android:text="@string/warrantySub"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="nextPage" />
+
+    <Button
+        android:id="@+id/homeowner_lead_btn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_below="@+id/warranty_btn"
+        android:layout_alignLeft="@+id/warranty_btn"
+        android:layout_alignStart="@+id/warranty_btn"
+        android:layout_marginTop="10dp"
+        android:text="@string/homeowner"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="nextPage" />
+
+    <Button
+        android:id="@+id/testimonials_btn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_below="@+id/homeowner_lead_btn"
+        android:layout_alignLeft="@+id/homeowner_lead_btn"
+        android:layout_alignStart="@+id/homeowner_lead_btn"
+        android:layout_marginTop="10dp"
+        android:text="@string/testimonial"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:onClick="nextPage" />
+
+
+
+
+</RelativeLayout>
